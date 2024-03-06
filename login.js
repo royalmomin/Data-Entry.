@@ -7,7 +7,7 @@ document.getElementById('login-btn').addEventListener('click', function(){
     console.log(user, password);
 
     if(user === 'Royal' && password === 'sanbar'){
-        window.location.href = "index.html"
+        window.location.href = "home.html"
     } else {
         alert('Please input correct password')
     }
